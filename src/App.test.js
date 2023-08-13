@@ -5,8 +5,7 @@ import React from 'react';
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import { App } from './App';
-import { enableFetchMocks } from 'jest-fetch-mock';
-enableFetchMocks();
+
 
 
 it('should render', () => {
