@@ -15,3 +15,7 @@ it('should render', () => {
 it('should not fail', () => {
   expect(true).toBe(false);
 });
+
+it("should do something amazing", () => {
+  expect(true).toBe(false);
+});
